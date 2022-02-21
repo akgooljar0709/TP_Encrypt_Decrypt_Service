@@ -1,0 +1,13 @@
+[Unit]
+Description=Encrypt file on boot
+After=network-online.target
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=/home/client/TP_Encrypt_Decrypt_Service/src/crypt.sh
+
+
+[Install]
+WantedBy=multi-user.target
+
