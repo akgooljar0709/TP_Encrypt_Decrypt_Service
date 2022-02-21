@@ -40,7 +40,7 @@ sudo systemctl status encrypt.service
 ## Decrypt
 This service is used to decrypt a file situated at /home/client/TP_Encrypt_Decrypt_Service/todecrypt/todecrypt.txt and write file decrypted on a file situated at  /var/log/decrypt/decrypt.out 
 
-To check if it works properly check the log file or type the folowing command:
+To check if it works properly we need to check the log file or type the folowing command:
 ```sh
 sudo systemctl status decrypt.service
 ```
