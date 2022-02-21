@@ -25,7 +25,7 @@ else
 fi
 
 #check if binary exists then delete it
-script_name="${service_name::-1}.sh"
+script_name="${service_name}.sh"
 if [ -f /bin/$script_name ]
 then
         sudo rm -rf /bin/$script_name

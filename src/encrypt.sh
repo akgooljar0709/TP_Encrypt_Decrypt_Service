@@ -1,16 +1,18 @@
 #!/bin/bash
 
+PATH=/home/$USER/TP_Encrypt_Decrypt_Service
 
-while [[ -f "../tocrypt/tocrypt.txt" ]]; do
+while [[ -f $PATH/tocrypt/tocrypt.txt ]]; do
 
-	python3 ../ressources/crypt.py ../tocrypt/tocrypt.txt ../todecrypt/todecrypt.txt
-	
-	echo " File crypted " >> crypt.out
+        python3 $PATH/ressources/crypt.py $PATH/tocrypt/tocrypt.txt $PATH/todecrypt/todecrypt.txt
 
-	rm ../tocrypt/tocrypt.txt
+        echo " File crypted " >> /var/log/encrypt/crypt.out
 
-	sleep 2
+        rm $PATH/tocrypt/tocrypt.txt
+
+        sleep 2
 
 done
+
 
 
