@@ -20,8 +20,7 @@ chmod +x install.sh
 ./install.sh
 ```
 ## Encrypt
-This service write the date on boot on a file situated at /var/log/encrypt/encrypt.out
-It write a message file encrypted each time it is started.
+This service is used to encrypt a file situated at /home/client/TP_Encrypt_Decrypt_Service/toencrypt/todecrypt.txt and write file encrypted on a file situated at  /var/log/encrypt/encrypt.out 
 
 To trigger it, type the following command:
 
