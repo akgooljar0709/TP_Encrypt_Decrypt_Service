@@ -34,7 +34,7 @@ We can check it on /var/log/encrypt/encrypt.out
 It is also possible to check he service status:
 
 ```sh
-sudo systemtcl status encrypt.service
+sudo systemctl status encrypt.service
 ```
 
 ## Decrypt
