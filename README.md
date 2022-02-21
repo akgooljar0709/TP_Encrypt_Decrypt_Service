@@ -20,7 +20,7 @@ chmod +x install.sh
 ./install.sh
 ```
 ## Encrypt
-This service is used to encrypt a file situated at /home/client/TP_Encrypt_Decrypt_Service/toencrypt/todecrypt.txt and write file encrypted on a file situated at  /var/log/encrypt/encrypt.out 
+This service is used to encrypt a file situated at /home/client/TP_Encrypt_Decrypt_Service/toencrypt/toencrypt.txt and write file encrypted on a file situated at  /var/log/encrypt/encrypt.out 
 
 To trigger it, type the following command:
 
